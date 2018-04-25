@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/calculator.cpp
+mathematics.hpp
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/mathematics.hpp
+string
+-
+iostream
+-
+algorithm
+-
+
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/mathematics.hpp
+cmath
+-
+

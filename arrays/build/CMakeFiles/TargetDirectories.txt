@@ -1,0 +1,6 @@
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/build/CMakeFiles/edit_cache.dir
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/build/CMakeFiles/AnalyzeDNA.dir
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/build/CMakeFiles/rebuild_cache.dir
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/build/CMakeFiles/AnalyzeECG.dir
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/build/CMakeFiles/Calculator.dir
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/build/CMakeFiles/Heron.dir

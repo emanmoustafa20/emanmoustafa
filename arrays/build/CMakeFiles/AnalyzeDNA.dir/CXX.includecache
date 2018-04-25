@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/analyzeDNA.cpp
+helpers.hpp
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/helpers.hpp
+dna.hpp
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/dna.hpp
+arrays.hpp
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/arrays.hpp
+
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/arrays.hpp
+iostream
+-
+mathematics.hpp
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/mathematics.hpp
+
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/dna.hpp
+arrays.hpp
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/arrays.hpp
+
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/helpers.hpp
+string
+-
+vector
+-
+iostream
+-
+fstream
+-
+algorithm
+-
+
+/home/emo/sbe201-week3-cpp-arrays-emanmoustafa20/mathematics.hpp
+cmath
+-
+
