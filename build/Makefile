@@ -111,32 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ecg
-
-# Build rule for target.
-ecg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ecg
-.PHONY : ecg
-
-# fast build rule for target.
-ecg/fast:
-	$(MAKE) -f CMakeFiles/ecg.dir/build.make CMakeFiles/ecg.dir/build
-.PHONY : ecg/fast
-
-#=============================================================================
-# Target rules for targets named mathematics
-
-# Build rule for target.
-mathematics: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mathematics
-.PHONY : mathematics
-
-# fast build rule for target.
-mathematics/fast:
-	$(MAKE) -f CMakeFiles/mathematics.dir/build.make CMakeFiles/mathematics.dir/build
-.PHONY : mathematics/fast
-
-#=============================================================================
 # Target rules for targets named helpers
 
 # Build rule for target.
@@ -174,6 +148,19 @@ Calculator: cmake_check_build_system
 Calculator/fast:
 	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/build
 .PHONY : Calculator/fast
+
+#=============================================================================
+# Target rules for targets named AnalyzeECG
+
+# Build rule for target.
+AnalyzeECG: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AnalyzeECG
+.PHONY : AnalyzeECG
+
+# fast build rule for target.
+AnalyzeECG/fast:
+	$(MAKE) -f CMakeFiles/AnalyzeECG.dir/build.make CMakeFiles/AnalyzeECG.dir/build
+.PHONY : AnalyzeECG/fast
 
 #=============================================================================
 # Target rules for targets named heap
@@ -228,6 +215,19 @@ dna/fast:
 .PHONY : dna/fast
 
 #=============================================================================
+# Target rules for targets named ecg
+
+# Build rule for target.
+ecg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ecg
+.PHONY : ecg
+
+# fast build rule for target.
+ecg/fast:
+	$(MAKE) -f CMakeFiles/ecg.dir/build.make CMakeFiles/ecg.dir/build
+.PHONY : ecg/fast
+
+#=============================================================================
 # Target rules for targets named app
 
 # Build rule for target.
@@ -253,32 +253,6 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-#=============================================================================
-# Target rules for targets named AnalyzeECG
-
-# Build rule for target.
-AnalyzeECG: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 AnalyzeECG
-.PHONY : AnalyzeECG
-
-# fast build rule for target.
-AnalyzeECG/fast:
-	$(MAKE) -f CMakeFiles/AnalyzeECG.dir/build.make CMakeFiles/AnalyzeECG.dir/build
-.PHONY : AnalyzeECG/fast
-
-#=============================================================================
-# Target rules for targets named arrays
-
-# Build rule for target.
-arrays: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 arrays
-.PHONY : arrays
-
-# fast build rule for target.
-arrays/fast:
-	$(MAKE) -f CMakeFiles/arrays.dir/build.make CMakeFiles/arrays.dir/build
-.PHONY : arrays/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,19 +261,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ecg"
-	@echo "... mathematics"
 	@echo "... helpers"
 	@echo "... Heron"
 	@echo "... Calculator"
+	@echo "... AnalyzeECG"
 	@echo "... heap"
 	@echo "... AnalyzeDNA"
 	@echo "... app1"
 	@echo "... dna"
+	@echo "... ecg"
 	@echo "... app"
 	@echo "... run"
-	@echo "... AnalyzeECG"
-	@echo "... arrays"
 .PHONY : help
 
 

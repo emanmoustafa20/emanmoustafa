@@ -60,80 +60,6 @@ CMAKE_SOURCE_DIR = /home/emo/cmaketrial
 CMAKE_BINARY_DIR = /home/emo/cmaketrial/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/ecg.dir
-
-# All Build rule for target.
-CMakeFiles/ecg.dir/all:
-	$(MAKE) -f CMakeFiles/ecg.dir/build.make CMakeFiles/ecg.dir/depend
-	$(MAKE) -f CMakeFiles/ecg.dir/build.make CMakeFiles/ecg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emo/cmaketrial/build/CMakeFiles --progress-num= "Built target ecg"
-.PHONY : CMakeFiles/ecg.dir/all
-
-# Include target in all.
-all: CMakeFiles/ecg.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ecg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ecg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
-.PHONY : CMakeFiles/ecg.dir/rule
-
-# Convenience name for target.
-ecg: CMakeFiles/ecg.dir/rule
-
-.PHONY : ecg
-
-# clean rule for target.
-CMakeFiles/ecg.dir/clean:
-	$(MAKE) -f CMakeFiles/ecg.dir/build.make CMakeFiles/ecg.dir/clean
-.PHONY : CMakeFiles/ecg.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/ecg.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/mathematics.dir
-
-# All Build rule for target.
-CMakeFiles/mathematics.dir/all:
-	$(MAKE) -f CMakeFiles/mathematics.dir/build.make CMakeFiles/mathematics.dir/depend
-	$(MAKE) -f CMakeFiles/mathematics.dir/build.make CMakeFiles/mathematics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emo/cmaketrial/build/CMakeFiles --progress-num= "Built target mathematics"
-.PHONY : CMakeFiles/mathematics.dir/all
-
-# Include target in all.
-all: CMakeFiles/mathematics.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/mathematics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mathematics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
-.PHONY : CMakeFiles/mathematics.dir/rule
-
-# Convenience name for target.
-mathematics: CMakeFiles/mathematics.dir/rule
-
-.PHONY : mathematics
-
-# clean rule for target.
-CMakeFiles/mathematics.dir/clean:
-	$(MAKE) -f CMakeFiles/mathematics.dir/build.make CMakeFiles/mathematics.dir/clean
-.PHONY : CMakeFiles/mathematics.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/mathematics.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/helpers.dir
 
 # All Build rule for target.
@@ -241,6 +167,43 @@ CMakeFiles/Calculator.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Calculator.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AnalyzeECG.dir
+
+# All Build rule for target.
+CMakeFiles/AnalyzeECG.dir/all:
+	$(MAKE) -f CMakeFiles/AnalyzeECG.dir/build.make CMakeFiles/AnalyzeECG.dir/depend
+	$(MAKE) -f CMakeFiles/AnalyzeECG.dir/build.make CMakeFiles/AnalyzeECG.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emo/cmaketrial/build/CMakeFiles --progress-num= "Built target AnalyzeECG"
+.PHONY : CMakeFiles/AnalyzeECG.dir/all
+
+# Include target in all.
+all: CMakeFiles/AnalyzeECG.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AnalyzeECG.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AnalyzeECG.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
+.PHONY : CMakeFiles/AnalyzeECG.dir/rule
+
+# Convenience name for target.
+AnalyzeECG: CMakeFiles/AnalyzeECG.dir/rule
+
+.PHONY : AnalyzeECG
+
+# clean rule for target.
+CMakeFiles/AnalyzeECG.dir/clean:
+	$(MAKE) -f CMakeFiles/AnalyzeECG.dir/build.make CMakeFiles/AnalyzeECG.dir/clean
+.PHONY : CMakeFiles/AnalyzeECG.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/AnalyzeECG.dir/clean
 
 .PHONY : clean
 
@@ -393,6 +356,43 @@ clean: CMakeFiles/dna.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ecg.dir
+
+# All Build rule for target.
+CMakeFiles/ecg.dir/all:
+	$(MAKE) -f CMakeFiles/ecg.dir/build.make CMakeFiles/ecg.dir/depend
+	$(MAKE) -f CMakeFiles/ecg.dir/build.make CMakeFiles/ecg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emo/cmaketrial/build/CMakeFiles --progress-num= "Built target ecg"
+.PHONY : CMakeFiles/ecg.dir/all
+
+# Include target in all.
+all: CMakeFiles/ecg.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ecg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ecg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
+.PHONY : CMakeFiles/ecg.dir/rule
+
+# Convenience name for target.
+ecg: CMakeFiles/ecg.dir/rule
+
+.PHONY : ecg
+
+# clean rule for target.
+CMakeFiles/ecg.dir/clean:
+	$(MAKE) -f CMakeFiles/ecg.dir/build.make CMakeFiles/ecg.dir/clean
+.PHONY : CMakeFiles/ecg.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ecg.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/app.dir
 
 # All Build rule for target.
@@ -463,80 +463,6 @@ CMakeFiles/run.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/run.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/AnalyzeECG.dir
-
-# All Build rule for target.
-CMakeFiles/AnalyzeECG.dir/all:
-	$(MAKE) -f CMakeFiles/AnalyzeECG.dir/build.make CMakeFiles/AnalyzeECG.dir/depend
-	$(MAKE) -f CMakeFiles/AnalyzeECG.dir/build.make CMakeFiles/AnalyzeECG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emo/cmaketrial/build/CMakeFiles --progress-num= "Built target AnalyzeECG"
-.PHONY : CMakeFiles/AnalyzeECG.dir/all
-
-# Include target in all.
-all: CMakeFiles/AnalyzeECG.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/AnalyzeECG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AnalyzeECG.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
-.PHONY : CMakeFiles/AnalyzeECG.dir/rule
-
-# Convenience name for target.
-AnalyzeECG: CMakeFiles/AnalyzeECG.dir/rule
-
-.PHONY : AnalyzeECG
-
-# clean rule for target.
-CMakeFiles/AnalyzeECG.dir/clean:
-	$(MAKE) -f CMakeFiles/AnalyzeECG.dir/build.make CMakeFiles/AnalyzeECG.dir/clean
-.PHONY : CMakeFiles/AnalyzeECG.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/AnalyzeECG.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/arrays.dir
-
-# All Build rule for target.
-CMakeFiles/arrays.dir/all:
-	$(MAKE) -f CMakeFiles/arrays.dir/build.make CMakeFiles/arrays.dir/depend
-	$(MAKE) -f CMakeFiles/arrays.dir/build.make CMakeFiles/arrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emo/cmaketrial/build/CMakeFiles --progress-num= "Built target arrays"
-.PHONY : CMakeFiles/arrays.dir/all
-
-# Include target in all.
-all: CMakeFiles/arrays.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/arrays.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/arrays.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emo/cmaketrial/build/CMakeFiles 0
-.PHONY : CMakeFiles/arrays.dir/rule
-
-# Convenience name for target.
-arrays: CMakeFiles/arrays.dir/rule
-
-.PHONY : arrays
-
-# clean rule for target.
-CMakeFiles/arrays.dir/clean:
-	$(MAKE) -f CMakeFiles/arrays.dir/build.make CMakeFiles/arrays.dir/clean
-.PHONY : CMakeFiles/arrays.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/arrays.dir/clean
 
 .PHONY : clean
 

@@ -1,15 +1,13 @@
 /home/emo/cmaketrial/build/CMakeFiles/edit_cache.dir
 /home/emo/cmaketrial/build/CMakeFiles/rebuild_cache.dir
-/home/emo/cmaketrial/build/CMakeFiles/ecg.dir
-/home/emo/cmaketrial/build/CMakeFiles/mathematics.dir
 /home/emo/cmaketrial/build/CMakeFiles/helpers.dir
 /home/emo/cmaketrial/build/CMakeFiles/Heron.dir
 /home/emo/cmaketrial/build/CMakeFiles/Calculator.dir
+/home/emo/cmaketrial/build/CMakeFiles/AnalyzeECG.dir
 /home/emo/cmaketrial/build/CMakeFiles/heap.dir
 /home/emo/cmaketrial/build/CMakeFiles/AnalyzeDNA.dir
 /home/emo/cmaketrial/build/CMakeFiles/app1.dir
 /home/emo/cmaketrial/build/CMakeFiles/dna.dir
+/home/emo/cmaketrial/build/CMakeFiles/ecg.dir
 /home/emo/cmaketrial/build/CMakeFiles/app.dir
 /home/emo/cmaketrial/build/CMakeFiles/run.dir
-/home/emo/cmaketrial/build/CMakeFiles/AnalyzeECG.dir
-/home/emo/cmaketrial/build/CMakeFiles/arrays.dir

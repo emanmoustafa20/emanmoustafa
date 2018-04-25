@@ -41,17 +41,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ecg.dir/DependInfo.cmake"
-  "CMakeFiles/mathematics.dir/DependInfo.cmake"
   "CMakeFiles/helpers.dir/DependInfo.cmake"
   "CMakeFiles/Heron.dir/DependInfo.cmake"
   "CMakeFiles/Calculator.dir/DependInfo.cmake"
+  "CMakeFiles/AnalyzeECG.dir/DependInfo.cmake"
   "CMakeFiles/heap.dir/DependInfo.cmake"
   "CMakeFiles/AnalyzeDNA.dir/DependInfo.cmake"
   "CMakeFiles/app1.dir/DependInfo.cmake"
   "CMakeFiles/dna.dir/DependInfo.cmake"
+  "CMakeFiles/ecg.dir/DependInfo.cmake"
   "CMakeFiles/app.dir/DependInfo.cmake"
   "CMakeFiles/run.dir/DependInfo.cmake"
-  "CMakeFiles/AnalyzeECG.dir/DependInfo.cmake"
-  "CMakeFiles/arrays.dir/DependInfo.cmake"
   )
